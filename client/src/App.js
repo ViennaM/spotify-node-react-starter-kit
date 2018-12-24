@@ -5,7 +5,7 @@ import SpotifyWebApi from 'spotify-web-api-js';
 const spotifyApi = new SpotifyWebApi();
 
 const clientid = 'xxx'
-const scope = 'user-modify-playback-state user-read-private'
+const scope = 'user-modify-playback-state user-read-private user-read-playback-state'
 const redirect_uri = 'http://localhost:3000/callback'
 
 class App extends Component {
